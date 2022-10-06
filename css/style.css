@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins/Poppins-Regular.ttf);
+  font-weight: 400;
+  font-size: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../../fonts/Poppins/Poppins-Bold.ttf);
+  font-weight: 700;
+  font-size: normal;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+a {
+  color: #fff;
+  text-decoration: #000;
+}
+a:hover {
+  color: #000;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  padding: 0 15px;
+  margin: auto;
+  box-sizing: border-box;
+}
+.container-fluid {
+  width: 100%;
+  padding: 0 15%;
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+body {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: normal;
+}
+.header {
+  background-color: #292929;
+  display: flex;
+  padding: 46px 0;
+}
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+.header-inner .logo {
+  width: 199px;
+  height: 54px;
+  margin-right: 45px;
+  margin-left: 360px;
+}
+.header-inner-navbar {
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+}
+.header-inner-navbar nav .navbar {
+  display: flex;
+}
+.header-inner-navbar nav .navbar .nav-item {
+  margin-left: 26px;
+  margin-right: 25px;
+  width: 60px;
+  height: 12px;
+}
+.header-inner-navbar nav .navbar .nav-item:first-child {
+  margin-left: 45px;
+}
+.header-inner-navbar nav .navbar .nav-item:last-child {
+  margin-right: 66px;
+}
+.header-inner .control {
+  display: flex;
+}
+.header-inner .control .search {
+  height: 18px;
+  width: 17px;
+  border-right: 1px solid #8f8f8f;
+  padding-right: 26px;
+  line-height: 17px;
+  margin-left: 67px;
+}
+.header-inner .control .cart {
+  height: 16px;
+  width: 20px;
+  border-right: 1px solid #8f8f8f;
+  padding-right: 26px;
+  padding-left: 26px;
+  line-height: 17px;
+}
+.header-inner .control .user {
+  height: 18px;
+  width: 15px;
+  padding-left: 26px;
+  line-height: 17px;
+  padding-right: 360px;
+}
+/*# sourceMappingURL=style.css.map */

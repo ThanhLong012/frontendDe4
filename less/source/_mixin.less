@@ -1,0 +1,33 @@
+//flexbox
+.flex() {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+//icon between
+.flex-icon() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+//transform
+.transformer (@scale) {
+  transform: @scale;
+  -webkit-transform: @scale;
+  -moz-transform: @scale;
+  -o-transform: @scale;
+}
+
+.transit (@attr, @sec) {
+  transition: @attr, @sec;
+  -webkit-transition: @attr, @sec;
+  -moz-transition: @attr, @sec;
+  -o-transition: @attr, @sec;
+}
+
+.col (@width) {
+  width: @width;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
