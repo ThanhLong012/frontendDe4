@@ -19,7 +19,7 @@
   left: 0;
   width: 100%;
   outline: 0;
-  background: rgba(0, 0, 0, 0.3);
+  background: #000;
   transition: all 0.4s ease;
   z-index: 1000;
   &-inner {
@@ -53,7 +53,8 @@
           padding: 0 15px;
         }
         .nav-item {
-          a {
+          &:hover {
+            color: chocolate;
           }
         }
       }
@@ -68,10 +69,6 @@
         padding: 0 26px;
         border-left: 1px solid @summary-color;
         .transit(all, 0.5s);
-        &:hover {
-          .transformer(scale(1.2));
-          cursor: pointer;
-        }
         &:first-child {
           border-left: none;
         }

@@ -21,4 +21,8 @@ $(document).ready(function () {
     $(this).addClass("active");
     $(tab_target).addClass("active");
   });
+  $(".footer-inner").click(function (e) {
+    e.preventDefault();
+    $(this).find(".footer-content").toggle("show");
+  });
 });

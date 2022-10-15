@@ -1,6 +1,5 @@
 .main-content {
   .slider {
-    max-width: 100%;
     overflow: hidden;
     // .slick-arrow {
     //   height: 5%;
@@ -76,7 +75,7 @@
     &-item {
       position: relative;
       img {
-        width: 100%;
+        // width: 100%;
       }
     }
     &-content {
@@ -85,18 +84,18 @@
       left: 50%;
       .transformer(translate(-50% ,0));
       &-inner {
-        .col(50%);
+        .col(100%);
         .slider-title {
           .transformer (translate(0, -90px));;
           .transit(all, 1s);
-          font-size: 46pt;
+          font-size: 60px;
           font-weight: 700;
           color: #fff;
         }
         .slider-summary {
           .transformer (translate(-90px, 0));;
           .transit(all, 1s);
-          font-size: 26pt;
+          font-size: 40px;
           font-weight: 700;
           color: #fff;
           padding-bottom: 20px;
@@ -104,9 +103,10 @@
         .slider-summary-two {
           .transformer (translate(-90px, 0));;
           .transit(all, 1s);
-          font-size: 10pt;
+          font-size: 14px;
           font-weight: 400;
           color: #fff;
+          line-height: 1.7142;
           padding-bottom: 30px;
         }
         a {
@@ -118,7 +118,11 @@
           color: #fff;
           text-transform: uppercase;
           border: 1px solid #fff;
-          padding: 18px 59px;
+          // padding: 18px 59px;
+
+          outline: none;
+          padding: 16px 47px;
+          background-color: transparent;
           &:hover {
             background-color: #000;
           }
